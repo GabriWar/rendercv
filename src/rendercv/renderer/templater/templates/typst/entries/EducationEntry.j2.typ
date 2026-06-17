@@ -11,7 +11,7 @@
 
 {% endfor %}
   ],
-  [
+  text(size: 8pt)[
 {% for line in entry.date_and_location_column.splitlines() %}
     {{ line|indent(4) }}
 
